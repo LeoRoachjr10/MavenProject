@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suite 1">
+    <parameter name="name" value="ANish"/>
+    <parameter name="pass" value="raja"/>
+	<test name="regression">
+	<classes>
+	<class name="Parameter">
+	<methods>
+	<include name="anish"/>
+	</methods>
+	</class>
+ </classes>
+
+	</test>
+	<test name="">
+	
+	
+	
+	</test>
+
+</suite>
